@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets (CRITICAL)
+.env
+*.env.local
+
+# Exported attendance data and logs
+*.csv
+*.xlsx
+*.log
+exports/
+logs/
+
+# Local network batch scripts
+*.bat
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editor folders
+.vscode/
+.idea/
